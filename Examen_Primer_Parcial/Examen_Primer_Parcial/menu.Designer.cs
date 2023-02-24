@@ -41,8 +41,9 @@
             this.btt_ejercicio1.Name = "btt_ejercicio1";
             this.btt_ejercicio1.Size = new System.Drawing.Size(84, 44);
             this.btt_ejercicio1.TabIndex = 0;
-            this.btt_ejercicio1.Text = "Ejericio 1";
+            this.btt_ejercicio1.Text = "Ejercicio 1";
             this.btt_ejercicio1.UseVisualStyleBackColor = true;
+            this.btt_ejercicio1.Click += new System.EventHandler(this.btt_ejercicio1_Click);
             // 
             // btt_ejercicio2
             // 
@@ -51,18 +52,20 @@
             this.btt_ejercicio2.Name = "btt_ejercicio2";
             this.btt_ejercicio2.Size = new System.Drawing.Size(85, 42);
             this.btt_ejercicio2.TabIndex = 1;
-            this.btt_ejercicio2.Text = "Ejericio 2";
+            this.btt_ejercicio2.Text = "Ejercicio 2";
             this.btt_ejercicio2.UseVisualStyleBackColor = true;
+            this.btt_ejercicio2.Click += new System.EventHandler(this.btt_ejercicio2_Click);
             // 
             // btt_ejercicio3
             // 
             this.btt_ejercicio3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btt_ejercicio3.Location = new System.Drawing.Point(300, 122);
             this.btt_ejercicio3.Name = "btt_ejercicio3";
-            this.btt_ejercicio3.Size = new System.Drawing.Size(89, 44);
+            this.btt_ejercicio3.Size = new System.Drawing.Size(81, 44);
             this.btt_ejercicio3.TabIndex = 2;
-            this.btt_ejercicio3.Text = "Ejericio 3";
+            this.btt_ejercicio3.Text = "Ejercicio 3";
             this.btt_ejercicio3.UseVisualStyleBackColor = true;
+            this.btt_ejercicio3.Click += new System.EventHandler(this.btt_ejercicio3_Click);
             // 
             // label1
             // 
