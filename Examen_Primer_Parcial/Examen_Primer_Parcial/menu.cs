@@ -45,5 +45,10 @@ namespace Examen_Primer_Parcial
             Hide();
             Ejercicio3.Show();
         }
+
+        private void btt_Salir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
